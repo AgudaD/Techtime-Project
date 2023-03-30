@@ -18,8 +18,8 @@ const ClientTestimonies = () => {
         modules={[Autoplay, Pagination]}
         spaceBetween={50}
         slidesPerView={'auto'}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => ('slide change')}
+        onSwiper={(swiper) => (swiper)}
         autoplay
         speed={1200}
         pagination={{ clickable: true }}

@@ -36,8 +36,8 @@ const Main = () => {
 
             {/* BURGER MENU */}
             <div className='text-3xl cursor-pointer z-20 md:hidden' onClick={() => setOpen(!open)} style={{
-                transition: open ? 'all' : '',
-                transitionDuration: open ? '1000' : '' 
+                transition: open && 'all',
+                transitionDuration: open && 'all' 
             }} >
                 <ion-icon name={open ? 'close-outline' : "menu-outline"}></ion-icon>
             </div>
@@ -59,8 +59,8 @@ const Main = () => {
 
         {/* Navigation Menu */}
       <div className="relative">
-          <nav className='flex flex-col justify-center items-center bg-[#004DB3] w-full h-screen text-white text-center font-satoshi fixed top-0 -right-[1100px] z-50 transition-all duration-1000' style={{
-            right: open ? '0' : ''
+          <nav className='flex flex-col justify-center items-center bg-[#004DB3] w-full h-screen text-white text-center font-satoshi fixed top-0 -right-[5000px] overflow-x-hidden  z-50 transition-all duration-1000' style={{
+            right: open && '0'
           }} >
             <div className='text-3xl cursor-pointer z-20 md:hidden absolute top-6 right-8' onClick={() => setOpen(!open)} >
                 <ion-icon name={open ? 'close-outline' : "menu-outline"}></ion-icon>
