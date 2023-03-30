@@ -21,7 +21,7 @@ const Main = () => {
     let links = [
         {name:"home", link:"/" },
         {name:"about us", link:"/" },
-        {name:"courses", link:"/" },
+        {name:"our courses", link:"/" },
         {name:"testimonials", link:"/" },
         {name:"community", link:"/" },
     ];
