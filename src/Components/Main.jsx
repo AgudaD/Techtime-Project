@@ -27,8 +27,9 @@ const Main = () => {
     ];
 
 
+    // [#004DB3]
   return (
-    <div className="relative bg-[#004DB3] p-6 text-white">
+    <div className="relative bg-red-600 p-6 text-white">
 
         {/* LOGO AND NAVIGATION */}
         <div className="flex justify-between items-center">
